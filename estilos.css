@@ -55,7 +55,8 @@ h2{
 
 .encabezado{
     display: block;
-    border: 1px white solid;
+    border: 2px white solid;
+    border-radius: 20px;
     padding: 50px;
 }
 
@@ -80,6 +81,11 @@ h2{
     color: rgb(197, 197, 197);
 }
 
+.triangulo{
+    border-bottom: 100px solid rgb(230, 230, 230);
+    border-right: 150px solid transparent;
+}
+
 .perfil-img img{
     width: 400px;
     height: 400px;
@@ -93,7 +99,10 @@ h2{
     color: rgb(0, 0, 0);
     width: 100%;
     height: 100vh;
-    
+}
+
+h2{
+    font-size: 40px;
 }
 
 .contenedor-block{
@@ -105,16 +114,38 @@ h2{
     padding: 50px;
 }
 
-.estudios{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.grid{  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
 }
 
-.habilidades{
-    display: flex;
-    justify-content: space-between;
+
+.lista{
+    display: block;
     align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.lista h3{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.lista li{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: rgb(24, 24, 24);
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    height: 100vh;
 }
