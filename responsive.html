@@ -28,7 +28,7 @@
 </nav>
 
 <header class="sobre-mi">
-    <div class="contenedor">
+    <div class="contenedor contenedor-grande">
         <div class="encabezado">
             <h3>Hola, mi nombre es</h3>
             <h1>Arnold Cole</h1>
@@ -44,11 +44,12 @@
             <img src="https://raw.githubusercontent.com/NahuRodas/ArgentinaProgramaProyectoFinal/main/recursos/foto_perfil.jpg" alt="Imagen de perfil">
         </div>
     </div>
+    <hr class="separador">
 </header>
 
 <body>
     <div class="cv" id="cv">
-        <div class="contenedor">
+        <div class="contenedor contenedor-cv">
             <h2>Curriculum Vitae</h2>
             <div class="accordion" id="accordionFlushExample">
                 <div class="accordion-item bg-transparent ">
@@ -151,11 +152,12 @@
                   </div>
                 </div>
               </div>
-        </div>             
+        </div>         
+        <hr class="separador">    
     </div>
 
     <div class="proyectos" id="proyectos">
-            <div class="contenedor-block">
+            <div class="contenedor contenedor-cv">
                 <h2>Proyéctos</h2>
             </div>
         <div class="contenedor-slider">
@@ -184,38 +186,41 @@
             <div class="slider-btn sldier-btn-derecha" id="btn-derecha"><i class='bx bxs-caret-right-circle'></i></div>
             <div class="slider-btn sldier-btn-izquierda" id="btn-izquierda"><i class='bx bxs-caret-left-circle'></i></div>
         </div>
+        <hr class="separador">
     </div>
 
     <div class="contacto" id="contacto">
-        <div class="contenedor">
+        <div class="contenedor contenedor-contacto">
             <h2>Contacto</h2>
-            <div class="contenedor row">
-                <div class="col-12">
-                    <h3>Enviame un mensaje</h3>
-                    <form class="formulario row" action="#" method="post">
-                        <input class="input-contacto col-12" type="text" name="nombre" id="nombre" placeholder="Nombre. . . " required><br>
-                        <input class="input-contacto col-12" type="email" name="email" id="email" placeholder="Email. . . " required><br>
-                        <textarea class="input-contacto col-12" name="mensaje" id="mensaje" rows="10" autocapitalize="sentences" placeholder="Mensaje. . . " maxlength="500" required></textarea><br>
+            <div class="contenedor contenedor-grid">
+                <div class="contenedor">
+                    <h3>Déjame un mensaje</h3>
+                    <form class="formulario" action="#" method="post">
+                        <input class="input-contacto " type="text" name="nombre" id="nombre" placeholder="Nombre. . . " required><br>
+                        <input class="input-contacto " type="email" name="email" id="email" placeholder="Email. . . " required><br>
+                        <textarea class="input-contacto " name="mensaje" id="mensaje" rows="10" autocapitalize="sentences" placeholder="Mensaje. . . " maxlength="500" required></textarea><br>
                         <button class="btn-enviar" type="submit">Enviar</button><span>(Responderé lo más rapido posible)</span>
                     </form>
                 </div>
-                <div class="col-12">
+                <div class="contenedor">
                     <h3>Otras formas de contactarme</h3>
-                    <div class="info-contacto">
-                        <i class='bx bx-envelope'></i>
-                        <a href="mailto:arnold.cole@example.com"><span>arnold.cole@example.com</span></a>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bx-phone' ></i>
-                        <span>(954) 446-2451</span>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bxl-discord-alt'></i>
-                        <span>arnold#1234</span>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bxl-linkedin-square' ></i>
-                        <span>Arnold Cole</span>
+                    <div class="mas-contactos">
+                        <div class="info-contacto">
+                            <i class='bx bx-envelope'></i>
+                            <a href="mailto:arnold.cole@example.com"><span>arnold.cole@example.com</span></a>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bx-phone' ></i>
+                            <span>(954) 446-2451</span>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bxl-discord-alt'></i>
+                            <span>arnold#1234</span>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bxl-linkedin-square' ></i>
+                            <span>Arnold Cole</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -224,13 +229,13 @@
 </body> 
 
 <footer>
-
+    <div class="contenedor">
         <p>Pagina creada para el programa "Argentina Programa". La informacion aqui detallada no pertenece a una persona real.</p>
 
         <p>Las imagenes mostradas en la sección "Proyectos" no son de mi autoridad. No me atribuyo la propiedad de dichas paginas.</p>
 
         <p> <strong>Desarrollador: Cesar Nahuel Rodas</strong> </p>
-
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
