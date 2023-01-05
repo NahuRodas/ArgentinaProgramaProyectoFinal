@@ -28,9 +28,9 @@
 </nav>
 
 <header class="sobre-mi">
-    <div class="contenedor-head">
+    <div class="contenedor contenedor-grande">
         <div class="encabezado">
-            <span>Hola, mi nombre es</span>
+            <h3>Hola, mi nombre es</h3>
             <h1>Arnold Cole</h1>
             <p>
                 Soy desarrollador web! Me especializo en el front-end y en el diseño web. Cuento con un amplio abanico de conocimientos sobre <strong>HTML</strong>, <strong>CSS</strong> y <strong>JS</strong>. 
@@ -41,25 +41,25 @@
         </div>
         <span class="triangulo"></span>
         <div class="perfil-img">
-            <img class="img-fluid" src="https://raw.githubusercontent.com/NahuRodas/ArgentinaProgramaProyectoFinal/main/recursos/foto_perfil.jpg" alt="Imagen de perfil">
+            <img src="https://raw.githubusercontent.com/NahuRodas/ArgentinaProgramaProyectoFinal/main/recursos/foto_perfil.jpg" alt="Imagen de perfil">
         </div>
     </div>
+    <hr class="separador">
 </header>
 
 <body>
     <div class="cv" id="cv">
-        <div class="contenedor-block">
+        <div class="contenedor contenedor-cv">
             <h2>Curriculum Vitae</h2>
-            <hr>
             <div class="accordion" id="accordionFlushExample">
-                <div class="accordion-item bg-transparent border-dark">
-                  <h3 class="accordion-header border-dark" id="flush-headingOne">
-                    <button class="accordion-button bg-transparent collapsed border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <div class="accordion-item bg-transparent ">
+                  <h3 class="accordion-header " id="flush-headingOne">
+                    <button class="accordion-button bg-transparent collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                         <h3>Estudios</h3>
                     </button>
                   </h3>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse border-dark" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body border-dark">
+                  <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body ">
                         <ul>
                             <li>
                                 <strong>Técnico en programación</strong>, Escuela Tecnica N°123, Buenos Aires, Argentina
@@ -71,7 +71,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item bg-transparent border-dark">
+                <div class="accordion-item bg-transparent">
                   <h3 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                         <h3>Esperiencia laboral</h3>
@@ -93,7 +93,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item bg-transparent border-dark">
+                <div class="accordion-item bg-transparent">
                   <h3 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                         <h3>Lenguajes y Frameworks</h3>
@@ -114,7 +114,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item bg-transparent border-dark">
+                <div class="accordion-item bg-transparent ">
                   <h3 class="accordion-header" id="flush-headingFour">
                     <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                         <h3>Habilidades</h3>
@@ -133,7 +133,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item bg-transparent border-dark">
+                <div class="accordion-item bg-transparent ">
                   <h3 class="accordion-header" id="flush-headingFive">
                     <button class="accordion-button bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                         <h3>Extras</h3>
@@ -152,13 +152,13 @@
                   </div>
                 </div>
               </div>
-        </div>             
+        </div>         
+        <hr class="separador">    
     </div>
 
     <div class="proyectos" id="proyectos">
-            <div class="contenedor-block">
+            <div class="contenedor contenedor-cv">
                 <h2>Proyéctos</h2>
-                <hr>
             </div>
         <div class="contenedor-slider">
             <div class="slider" id="slider">
@@ -186,53 +186,56 @@
             <div class="slider-btn sldier-btn-derecha" id="btn-derecha"><i class='bx bxs-caret-right-circle'></i></div>
             <div class="slider-btn sldier-btn-izquierda" id="btn-izquierda"><i class='bx bxs-caret-left-circle'></i></div>
         </div>
+        <hr class="separador">
     </div>
+
     <div class="contacto" id="contacto">
-        <div class="contenedor-contactos">
+        <div class="contenedor contenedor-contacto">
             <h2>Contacto</h2>
-            <hr>
-            <div class="contenedor-info-contactos row gx-5">
-                <div class="col-8">
-                    <h3>Enviame un mensaje</h3>
+            <div class="contenedor contenedor-grid">
+                <div class="contenedor">
+                    <h3>Déjame un mensaje</h3>
                     <form class="formulario" action="#" method="post">
-                        <input class="input-contacto" type="text" name="nombre" id="nombre" placeholder="Nombre. . . "><br>
-                        <input class="input-contacto" type="email" name="email" id="email" placeholder="Email. . . "><br>
-                        <textarea class="input-contacto" name="mensaje" id="mensaje" rows="10" autocapitalize="sentences" placeholder="Mensaje. . . "></textarea><br>
+                        <input class="input-contacto " type="text" name="nombre" id="nombre" placeholder="Nombre. . . " required><br>
+                        <input class="input-contacto " type="email" name="email" id="email" placeholder="Email. . . " required><br>
+                        <textarea class="input-contacto " name="mensaje" id="mensaje" rows="10" autocapitalize="sentences" placeholder="Mensaje. . . " maxlength="500" required></textarea><br>
                         <button class="btn-enviar" type="submit">Enviar</button><span>(Responderé lo más rapido posible)</span>
                     </form>
                 </div>
-                <div class="col-4">
+                <div class="contenedor">
                     <h3>Otras formas de contactarme</h3>
-                    <div class="info-contacto">
-                        <i class='bx bx-envelope'></i>
-                        <a href="mailto:arnold.cole@example.com"><span>arnold.cole@example.com</span></a>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bx-phone' ></i>
-                        <span>(954) 446-2451</span>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bxl-discord-alt'></i>
-                        <span>arnold#1234</span>
-                    </div>
-                    <div class="info-contacto">
-                        <i class='bx bxl-linkedin-square' ></i>
-                        <span>Arnold Cole</span>
+                    <div class="mas-contactos">
+                        <div class="info-contacto">
+                            <i class='bx bx-envelope'></i>
+                            <a href="mailto:arnold.cole@example.com"><span>arnold.cole@example.com</span></a>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bx-phone' ></i>
+                            <span>(954) 446-2451</span>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bxl-discord-alt'></i>
+                            <span>arnold#1234</span>
+                        </div>
+                        <div class="info-contacto">
+                            <i class='bx bxl-linkedin-square' ></i>
+                            <span>Arnold Cole</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>   
     </div>
-</body>
+</body> 
 
 <footer>
-
+    <div class="contenedor">
         <p>Pagina creada para el programa "Argentina Programa". La informacion aqui detallada no pertenece a una persona real.</p>
 
         <p>Las imagenes mostradas en la sección "Proyectos" no son de mi autoridad. No me atribuyo la propiedad de dichas paginas.</p>
 
-        <p> <strong>Autor: Cesar Nahuel Rodas</strong> </p>
-
+        <p> <strong>Desarrollador: Cesar Nahuel Rodas</strong> </p>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
