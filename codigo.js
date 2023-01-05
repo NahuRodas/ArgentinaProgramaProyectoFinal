@@ -88,6 +88,6 @@ btnLeft.addEventListener('click', function(){
 });
 
     // Slide automatico.
-setInterval(function(){
+/* setInterval(function(){
     NextImg();
-},4000);
+},4000); */
