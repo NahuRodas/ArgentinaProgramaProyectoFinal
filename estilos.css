@@ -258,7 +258,7 @@ footer p{
 
 
     /*------- Computadoras -------*/
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1500px) {
     
     /*------- Estilos generales -------*/
 
@@ -285,6 +285,7 @@ footer p{
 
 .contenedor h2{
     font-size: 50px;
+    text-decoration: underline;
 }
 
 
@@ -331,26 +332,25 @@ footer p{
     /*------- Header de la pagina -------*/
 
 .sobre-mi{
-    margin-top: 50px;
-    position:relative;
     background-color: rgb(24, 24, 24);
     color: aliceblue;
-    display: flex;
     width: 100%;
     height: 100vh;
 }
 
 .contenedor-grande{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 80%;
-    margin: 5px auto;
+    padding-top: 8%;
+    margin: 0px auto;
 }
 
 .encabezado{
     display: block;
     border: 2px white solid;
+    background-color: rgb(24, 24, 24);
     border-radius: 20px;
     padding: 50px;
 }
@@ -386,18 +386,16 @@ footer p{
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px white;
     margin: 100px;
+    z-index: 1;
 }
-
 
     /*------- Conocimientos y habilidades --------*/
 
 .cv{
-    background-color: rgb(184, 184, 184);
+    background-color: #9c9c9c;
     color: rgb(0, 0, 0);
     width: 100%;
-    height: 100vh;
 }
 
 .contenedor-cv{
@@ -411,23 +409,23 @@ footer p{
 
 .accordion{  
     z-index: 1;
-    background-color: rgba(240, 248, 255, 0);
+    background-color: #9c9c9c;
     color: black;
     margin-top: 100px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgb(122, 122, 122);
 }
 
-.accordion-item{
-    border: 1px solid black;
-}
-
-.accordion button{
-    border: 1px solid black;
+.accordion-button{
+    border-bottom:1px solid black;
 }
 
 .accordion-item h3{
     font-size: 25px;
     color: black;
+}
+
+.accordion-body{
+    border-top:1px solid black;
 }
 
 .accordion-body ul{
@@ -445,7 +443,7 @@ footer p{
 
 .proyectos{
     background-color: rgb(24, 24, 24);
-    color: aliceblue;
+    color: white;
     width: 100%;
     height: 100vh;
     padding-top: 20px;
@@ -517,7 +515,7 @@ footer p{
     /*-------- Contactos --------*/
 
 .contacto{
-    background-color: rgb(184, 184, 184);
+    background-color: #9c9c9c;
     color: rgb(0, 0, 0);
     display: flex;
     width: 100%;
@@ -549,7 +547,7 @@ footer p{
     padding: 5px;
     justify-self: center;
     align-self: center;
-    background-color: #ffffff00;
+    background-color: #ffffff;
     color: #000;
     border: 1px solid black;
     border-radius: 5px;
@@ -557,7 +555,9 @@ footer p{
 }
 
 .btn-enviar:hover{
-    background-color: #5c5c5c;
+    background-color: #e6e6e6;
+    color: #000;
+    border: 1px solid black;
 }
 
 .formulario span{
@@ -581,7 +581,7 @@ footer p{
 }
 
 .info-contacto a{
-    color: rgb(0, 140, 255);
+    color: rgb(0, 122, 221);
 }
 
 
