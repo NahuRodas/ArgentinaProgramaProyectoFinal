@@ -1,604 +1,604 @@
 
     /*------- Smarthphone -------*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.navegacion{
-    height: 0px;
-    visibility: hidden;
-}
-
-.sobre-mi{
-    width: 100%;
-    background-color: rgb(34, 34, 34);
-    color: white;
-    padding-bottom: 10px;
-}
-
-.contenedor{
-    height:auto;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.encabezado{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-}
-
-.encabezado h3{
-    font-size: 1.5em;
-    color: rgb(236, 236, 236);
-    text-align: center;
-}
-.encabezado h1{
-    text-align: center;
-    font-size: 3em;
-    color: aquamarine;
-}
-.encabezado p{
-    font-size: 1.2em;
-}
-
-.perfil-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.perfil-img img{
-    border-radius: 50%;
-    box-shadow: 0 0 0 5px white;
-}
-
-.triangulo{
-    visibility: hidden;
-}
-
-/* Curriculum */
-
-.cv{
-    width: 100%;
-    padding-bottom: 10px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-}
-
-.cv h2{
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.accordion{
-    color: white;
-    font-size: 1.2em;
-    margin-bottom: 0px;
-}
-
-.accordion-body{
-    color: #fff;
-}
-
-.accordion-button h3{
-    color: white;
-}
-
-/* Proyectos */
-
-.proyectos{
-    width: 100%;
-    padding-bottom: 10px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-}
-
-.proyectos h2{
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.contenedor-slider{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    min-width: 320px;
-    max-width: 767px;
-    margin: 50px auto;
-    overflow: hidden;
-    box-shadow: 0 0 0 5px white;
-    position: relative;
-}
-
-.slider{
-    display: flex;
-    width: 400%;
-    height: 100%;
-    margin-left: -100%;
-}
-
-.slider-section{
-    width: 100%;
-}
-
-.slider-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-}
-
-.slider-img img{
-    width:100%;
-}
-
-.slider-btn{
-    position: absolute;
-    top:50%;
-    font-size: 30px;
-    text-align: center;
-}
-
-.slider-btn i{
-    border-radius: 50%;
-    padding: 0px;
-}
-
-.slider-btn i:hover{
-    color: #3f3f3f;
-}
-
-.sldier-btn-derecha{
-    right: 10px;
-}
-.sldier-btn-izquierda{
-    left: 10px;
-}
-
-/* Contacto */
-
-.contacto{
-    width: 100%;
-    padding-bottom: 10px;
-    background-color: rgb(34, 34, 34);
-    color: white;
-}
-
-.contacto h2{
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.contacto h3{
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.formulario{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 100%;
-    text-align: center;
-}
-
-.input-contacto{
-    padding: 3px;
-    width: 100%;
-}
-
-.btn-enviar{
-    background-color: transparent;
-    color: #fff;
-    font-weight: 100;
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.btn-enviar:hover{
-    background-color: rgb(85, 85, 85);
-    color: #fff;
-    font-weight: 100;
-    border: 1px solid white;
-    padding: 5px;
-}
-
-
-/* Pie de página */
-
-footer{
-    width: 100%;
-    padding-bottom: 10px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(160, 160, 160);
-    text-align: center;
-}
-
-footer p{
-    font-size: 1em;
-    margin: 0;
-}
-
-.info-contacto a{
-    text-decoration: none;
-    color: rgb(0, 204, 255);
-}
-
-    /*------- Tablets y Notebooks --------*/
-
-@media screen and (min-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .navegacion{
+        height: 0px;
+        visibility: hidden;
+    }
+    
+    .sobre-mi{
+        width: 100%;
+        background-color: rgb(34, 34, 34);
+        color: white;
+        padding-bottom: 10px;
+    }
+    
+    .contenedor{
+        height:auto;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
     .encabezado{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    
+    .encabezado h3{
+        font-size: 1.5em;
+        color: rgb(236, 236, 236);
         text-align: center;
     }
-
-
+    .encabezado h1{
+        text-align: center;
+        font-size: 3em;
+        color: aquamarine;
+    }
+    .encabezado p{
+        font-size: 1.2em;
+    }
+    
+    .perfil-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .perfil-img img{
+        border-radius: 50%;
+        box-shadow: 0 0 0 5px white;
+    }
+    
+    .triangulo{
+        visibility: hidden;
+    }
+    
+    /* Curriculum */
+    
+    .cv{
+        width: 100%;
+        padding-bottom: 10px;
+        background-color: rgb(34, 34, 34);
+        color: white;
+    }
+    
+    .cv h2{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .accordion{
+        color: white;
+        font-size: 1.2em;
+        margin-bottom: 0px;
+    }
+    
+    .accordion-body{
+        color: #fff;
+    }
+    
+    .accordion-button h3{
+        color: white;
+    }
+    
+    /* Proyectos */
+    
+    .proyectos{
+        width: 100%;
+        padding-bottom: 10px;
+        background-color: rgb(34, 34, 34);
+        color: white;
+    }
+    
+    .proyectos h2{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .contenedor-slider{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        min-width: 320px;
+        max-width: 767px;
+        margin: 50px auto;
+        overflow: hidden;
+        box-shadow: 0 0 0 5px white;
+        position: relative;
+    }
+    
+    .slider{
+        display: flex;
+        width: 400%;
+        height: 100%;
+        margin-left: -100%;
+    }
+    
+    .slider-section{
+        width: 100%;
+    }
+    
+    .slider-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    
+    .slider-img img{
+        width:100%;
+    }
+    
+    .slider-btn{
+        position: absolute;
+        top:50%;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .slider-btn i{
+        border-radius: 50%;
+        padding: 0px;
+    }
+    
+    .slider-btn i:hover{
+        color: #3f3f3f;
+    }
+    
+    .sldier-btn-derecha{
+        right: 10px;
+    }
+    .sldier-btn-izquierda{
+        left: 10px;
+    }
+    
+    /* Contacto */
+    
+    .contacto{
+        width: 100%;
+        padding-bottom: 10px;
+        background-color: rgb(34, 34, 34);
+        color: white;
+    }
+    
+    .contacto h2{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .contacto h3{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .formulario{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+    .input-contacto{
+        padding: 3px;
+        width: 100%;
+    }
+    
     .btn-enviar{
-        margin: 10px 70px;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 100;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .btn-enviar:hover{
+        background-color: rgb(85, 85, 85);
+        color: #fff;
+        font-weight: 100;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    
+    
+    /* Pie de página */
+    
+    footer{
+        width: 100%;
+        padding-bottom: 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(160, 160, 160);
+        text-align: center;
+    }
+    
+    footer p{
+        font-size: 1em;
+        margin: 0;
+    }
+    
+    .info-contacto a{
+        text-decoration: none;
+        color: rgb(0, 204, 255);
+    }
+    
+        /*------- Tablets y Notebooks --------*/
+    
+    @media screen and (min-width:768px) {
+        .encabezado{
+            text-align: center;
+        }
+    
+    
+        .btn-enviar{
+            margin: 10px 70px;
+        }
+        
+        .mas-contactos{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            text-align: center;
+        }
+    }
+    
+    
+        /*------- Computadoras -------*/
+    @media screen and (min-width:1500px) {
+        
+        /*------- Estilos generales -------*/
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: rgb(24, 24, 24);
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: rgb(197, 197, 197);
+        border-radius: 5px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(156, 156, 156);
+      }
+    
+    .separador{
+        visibility: hidden;
+    }
+    
+    .contenedor h2{
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    
+    
+        /*------- Barra de navegacion -------*/
+    
+    .navegacion{
+        visibility: visible;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(0, 0, 0);
+        z-index: 2;
+    }
+    
+    .contenedor-nav{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 5px auto;
+    }
+    
+    .btn-navegacion{
+        width: 200px;
+        padding: 5px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .btn-navegacion:hover{
+        background-color: rgba(73, 73, 73, 0.644);
+        border-radius: 10px;
+        color: white;
+    }
+    
+    
+        /*------- Header de la pagina -------*/
+    
+    .sobre-mi{
+        background-color: rgb(24, 24, 24);
+        color: aliceblue;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .contenedor-grande{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding-top: 8%;
+        margin: 0px auto;
+    }
+    
+    .encabezado{
+        display: block;
+        border: 2px white solid;
+        background-color: rgb(24, 24, 24);
+        border-radius: 20px;
+        padding: 50px;
+    }
+    
+    .encabezado h3{
+        font-size: 30px;
+        color: rgb(197, 197, 197);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .encabezado h1{
+        font-size: 60px;
+        color: aquamarine;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .encabezado p{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgb(197, 197, 197);
+    }
+    
+    .triangulo{
+        visibility: visible;
+        border-bottom: 100px solid rgb(230, 230, 230);
+        border-right: 150px solid transparent;
+    }
+    
+    .perfil-img img{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        margin: 100px;
+        z-index: 1;
+    }
+    
+        /*------- Conocimientos y habilidades --------*/
+    
+    .cv{
+        background-color: #9c9c9c;
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+    
+    .contenedor-cv{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    
+    .accordion{  
+        z-index: 1;
+        background-color: #9c9c9c;
+        color: black;
+        margin-top: 100px;
+        box-shadow: 5px 5px 10px rgb(122, 122, 122);
+    }
+    
+    .accordion-button{
+        border-bottom:1px solid black;
+    }
+    
+    .accordion-item h3{
+        font-size: 25px;
+        color: black;
+    }
+    
+    .accordion-body{
+        border-top:1px solid black;
+    }
+    
+    .accordion-body ul{
+        font-size: 20px;
+        color: black;
+    }
+    
+    .accordion-body li span{
+        font-style: italic;
+        color: rgb(51, 51, 51);
+    }
+    
+    
+        /*------ Slider de proyectos ------*/
+    
+    .proyectos{
+        background-color: rgb(24, 24, 24);
+        color: white;
+        width: 100%;
+        height: 100vh;
+        padding-top: 20px;
+    }
+    
+    .contenedor-slider{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        min-width: 728px;
+        max-width: 1024px;
+        margin: 100px auto;
+        overflow: hidden;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+    }
+    
+    .slider{
+        display: flex;
+        width: 400%;
+        height: 500px;
+        margin-left: -100%;
+    }
+    
+    .slider-section{
+        width: 100%;
+    }
+    
+    .slider-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .slider-img img{
+        width: 1024px;
+    }
+    
+    .slider-btn{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top:50%;
+        font-size: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .slider-btn i{
+        color:#3f3f3f71;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    
+    .slider-btn i:hover{
+        color: #3f3f3f;
+    }
+    
+    .sldier-btn-derecha{
+        right: 10px;
+    }
+    .sldier-btn-izquierda{
+        left: 10px;
+    }
+    
+    
+        /*-------- Contactos --------*/
+    
+    .contacto{
+        background-color: #9c9c9c;
+        color: rgb(0, 0, 0);
+        display: flex;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .contenedor-contacto{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+    
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+    
+    .input-contacto{
+        width: 400px;
+        padding: 5px;
+        border-radius: 5px;
+        resize:none;
+    }
+    
+    .btn-enviar{
+        width: 100px;
+        padding: 5px;
+        justify-self: center;
+        align-self: center;
+        background-color: #ffffff;
+        color: #000;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .btn-enviar:hover{
+        background-color: #e6e6e6;
+        color: #000;
+        border: 1px solid black;
+    }
+    
+    .formulario span{
+        font-size: 15px;
+        font-style: italic;
+        margin-left: 10px;
     }
     
     .mas-contactos{
-        margin-top: 10px;
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        text-align: center;
+        display: block;
+        text-align: left;
     }
-}
-
-
-    /*------- Computadoras -------*/
-@media screen and (min-width:1500px) {
     
-    /*------- Estilos generales -------*/
-
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgb(24, 24, 24);
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgb(197, 197, 197);
-    border-radius: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(156, 156, 156);
-  }
-
-.separador{
-    visibility: hidden;
-}
-
-.contenedor h2{
-    font-size: 50px;
-    text-decoration: underline;
-}
-
-
-    /*------- Barra de navegacion -------*/
-
-.navegacion{
-    visibility: visible;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-    z-index: 2;
-}
-
-.contenedor-nav{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 5px auto;
-}
-
-.btn-navegacion{
-    width: 200px;
-    padding: 5px;
-    background-color: rgba(240, 248, 255, 0);
-    color: rgb(255, 255, 255);
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.btn-navegacion:hover{
-    background-color: rgba(73, 73, 73, 0.644);
-    border-radius: 10px;
-    color: white;
-}
-
-
-    /*------- Header de la pagina -------*/
-
-.sobre-mi{
-    background-color: rgb(24, 24, 24);
-    color: aliceblue;
-    width: 100%;
-    height: 100vh;
-}
-
-.contenedor-grande{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding-top: 8%;
-    margin: 0px auto;
-}
-
-.encabezado{
-    display: block;
-    border: 2px white solid;
-    background-color: rgb(24, 24, 24);
-    border-radius: 20px;
-    padding: 50px;
-}
-
-.encabezado h3{
-    font-size: 30px;
-    color: rgb(197, 197, 197);
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.encabezado h1{
-    font-size: 60px;
-    color: aquamarine;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.encabezado p{
-    font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(197, 197, 197);
-}
-
-.triangulo{
-    visibility: visible;
-    border-bottom: 100px solid rgb(230, 230, 230);
-    border-right: 150px solid transparent;
-}
-
-.perfil-img img{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    margin: 100px;
-    z-index: 1;
-}
-
-    /*------- Conocimientos y habilidades --------*/
-
-.cv{
-    background-color: #9c9c9c;
-    color: rgb(0, 0, 0);
-    width: 100%;
-}
-
-.contenedor-cv{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.accordion{  
-    z-index: 1;
-    background-color: #9c9c9c;
-    color: black;
-    margin-top: 100px;
-    box-shadow: 5px 5px 10px rgb(122, 122, 122);
-}
-
-.accordion-button{
-    border-bottom:1px solid black;
-}
-
-.accordion-item h3{
-    font-size: 25px;
-    color: black;
-}
-
-.accordion-body{
-    border-top:1px solid black;
-}
-
-.accordion-body ul{
-    font-size: 20px;
-    color: black;
-}
-
-.accordion-body li span{
-    font-style: italic;
-    color: rgb(51, 51, 51);
-}
-
-
-    /*------ Slider de proyectos ------*/
-
-.proyectos{
-    background-color: rgb(24, 24, 24);
-    color: white;
-    width: 100%;
-    height: 100vh;
-    padding-top: 20px;
-}
-
-.contenedor-slider{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    min-width: 728px;
-    max-width: 1024px;
-    margin: 100px auto;
-    overflow: hidden;
-    box-shadow: 0 0 0 10px white;
-    position: relative;
-}
-
-.slider{
-    display: flex;
-    width: 400%;
-    height: 500px;
-    margin-left: -100%;
-}
-
-.slider-section{
-    width: 100%;
-}
-
-.slider-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.slider-img img{
-    width: 1024px;
-}
-
-.slider-btn{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top:50%;
-    font-size: 50px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.slider-btn i{
-    color:#3f3f3f71;
-    border-radius: 50%;
-    padding: 0px;
-}
-
-.slider-btn i:hover{
-    color: #3f3f3f;
-}
-
-.sldier-btn-derecha{
-    right: 10px;
-}
-.sldier-btn-izquierda{
-    left: 10px;
-}
-
-
-    /*-------- Contactos --------*/
-
-.contacto{
-    background-color: #9c9c9c;
-    color: rgb(0, 0, 0);
-    display: flex;
-    width: 100%;
-    height: 80vh;
-}
-
-.contenedor-contacto{
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.contenedor-grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 50px;
-}
-
-.input-contacto{
-    width: 400px;
-    padding: 5px;
-    border-radius: 5px;
-    resize:none;
-}
-
-.btn-enviar{
-    width: 100px;
-    padding: 5px;
-    justify-self: center;
-    align-self: center;
-    background-color: #ffffff;
-    color: #000;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 20px;
-}
-
-.btn-enviar:hover{
-    background-color: #e6e6e6;
-    color: #000;
-    border: 1px solid black;
-}
-
-.formulario span{
-    font-size: 15px;
-    font-style: italic;
-    margin-left: 10px;
-}
-
-.mas-contactos{
-    display: block;
-    text-align: left;
-}
-
-.info-contacto{
-    font-size: 20px;
-    margin: 5px;
-}
-
-.info-contacto i{
-    margin-right: 5px;
-}
-
-.info-contacto a{
-    color: rgb(0, 122, 221);
-}
-
-
-    /*------- Footer -------*/
-
-footer{
-    height:fit-content;
-    background-color: black;
-    display: block;
-    padding-top: 10px;
-}
-
-footer p{
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-}
-
-}
+    .info-contacto{
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    .info-contacto i{
+        margin-right: 5px;
+    }
+    
+    .info-contacto a{
+        color: rgb(0, 122, 221);
+    }
+    
+    
+        /*------- Footer -------*/
+    
+    footer{
+        height:fit-content;
+        background-color: black;
+        display: block;
+        padding-top: 10px;
+    }
+    
+    footer p{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    }
