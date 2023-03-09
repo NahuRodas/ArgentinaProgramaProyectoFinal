@@ -87,7 +87,39 @@ btnLeft.addEventListener('click', function(){
     PrevImg();
 });
 
-    // Slide automatico.
-/* setInterval(function(){
-    NextImg();
-},4000); */
+//----------------------------------------------------------------
+    // Enviar mensaje desde el formulario de la página hacia mi email
+    //----------------------------------------------------------------
+
+    // Declaracion de variables
+
+    let btnEnviar = document.getElementById('btn-enviar'),
+        nombre = document.getElementById('nombre'),
+        email = document.getElementById('email'),
+        mensaje = document.getElementById('mensaje'),
+        subject = "";
+
+    // Funcion para la creacion del mensaje de confirmacion de envio
+
+    function mensajeDeEnvio() {
+        if( location.href === "https://nahurodas.github.io/" ) {
+            alert("Mensaje enviado. Me comunicaré lo mas rápido posible.")
+        }else{
+            alert("Message sent. I will communicate as quickly as possible.")
+        }
+    }
+
+    // Evento para el boton de envio del formulario
+
+    btnEnviar.addEventListener('click', e=> {
+        e.preventDefault();
+        Email.send({
+            SecureToken : "2d1f208f-5a22-4a3b-befb-8cacd7388b28",
+            To : 'cesarnrodas@gmail.com',
+            From : 'cesarnrodas@gmail.com',
+            Subject :"Mensaje de " + nombre.value + " desde página web.",
+            Body : "Email: " + email.value + " | Mensaje: " + mensaje.value
+        }).then(
+            mensajeDeEnvio()
+        );
+    })
